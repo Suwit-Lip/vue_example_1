@@ -35,8 +35,8 @@ import { ref, onMounted } from 'vue';
 import EventCard from '@/components/EventCard.vue';
 import LoadingEventCard from '@/components/LoadingEventCard.vue';
 import SectionCard from '@/components/SectionCard.vue';
-import RoundButton from './RoundButton.vue';
-import useBookings from './composables/useBookings';
+import RoundButton from '@/components/RoundButton.vue';
+import useBookings from '@/composables/useBookings';
 
 const events = ref([]);
 const loading = ref(false);

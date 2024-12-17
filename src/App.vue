@@ -26,7 +26,7 @@ import { onMounted } from 'vue';
 import BookingItem from '@/components/BookingItem.vue';
 import LoadingBookingItem from '@/components/LoadingBookingItem.vue';
 import EventList from '@/components/EventList.vue';
-import useBookings from './composables/useBookings';
+import useBookings from '@/composables/useBookings';
 
 const { bookings, loading, fetchBookings, cancelBooking } = useBookings();
 
