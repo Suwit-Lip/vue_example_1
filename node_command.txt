@@ -1,0 +1,9 @@
+npm install --save-dev eslint eslint-config-prettier eslint-plugin-vue globals typescript-eslint
+
+npm install -D tailwindcss autoprefixer
+npx tailwindcss init -p
+
+npm install --save-dev json-server@^0.17.4
+npm run server
+
+npm lucide-vue-next
